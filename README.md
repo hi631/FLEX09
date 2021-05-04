@@ -68,9 +68,9 @@ Copy /b FLEX9SYS.DSK + DUMY_4CKFF.bin + BLANK.DSK + DUMY_4CKFF.bin + BLANK.DSK +
 <br>
 <font size="+1">#Boot loader settings</font><br>
 1. The monitor starts by resetting.<br>
-2. Issue the'L'command. Check the'%' display.<br>
-Copy and paste 3.flex9.hexe to the terminal and load it into memory. (Written
-to  $ C000- $ FFFF)<br>
+2. Issue the'L'command. Check the'%' display.Copy and paste <br>
+3.flex9.hexe to the terminal and load it into memory. (Written to $ C000-
+$ FFFF)<br>
 4. Issue a write command with'W 5001 C000 3F'.<br>
 * 5001 is equivalent to  $ 800 sector (512B / S conversion) on the card.<br>
 5. Confirm the operation with the'B'command.<br>
