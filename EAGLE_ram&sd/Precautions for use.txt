@@ -1,0 +1,5 @@
+Precautions for use
+
+When using this pattern, on the ep2c5 board
+It is necessary to remove the resistors R1, R2, R9 and R10.
+The adverse effect of removal is unknown. 

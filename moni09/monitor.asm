@@ -31,6 +31,8 @@ RSTART    LDS  #$1EE		RESET START
           LDX  #ROMBASE
           LDA  #$5A
           STA  -1,X
+          LDB  #$A5
+          STB  -2,X
           CMPA -1,X		IS RAM ?
           BNE  MONI
 RSTARTLP  LDA  0,X		COPY ROM -> RAM
